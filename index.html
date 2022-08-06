@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- 웹페이지 보이지는 않지만, 필요한 설정을 해두는 곳이에요.
+             우리가 집을 위해 미리 생각 해놓은 것을 적어두는 곳이라고 할 수 있죠!-->
+        <meta charset=“UTF-8” />
+        <meta http-equiv=“X-UA-Compatible” content=“IE=edge” />
+        <meta name=“viewport” content=“width=device-width, initial-scale=1.0” />
+        <meta property=“og:title” content=“줄의저녁추천” />
+        <meta property=“og:description” content=“주리가좋아하는구월동저녁메뉴” />
+        <meta property=“og:image” content=“줄.jpg” />
+        <title>줄의 저녁추천</title>
+        <style>
+            @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+            * {
+                font-family: "Pretendard",serif;
+            }
+            body{
+                background-color: #44398A;
+            }
+            .profile {
+                width: 100px;
+                height: 100px;
+
+                background-color: green;
+                border-radius: 100% ;
+
+                border: 2px solid white; 
+
+                background-image: url('줄.jpg' );
+                background-position:  center;
+                background-size:  cover;
+            }
+            .main{
+                color: white;
+                font-size: 20px;
+
+                margin-top: 30px;
+                margin-bottom: 10px;
+            }
+            .sub{
+                color: white;
+                font-size: 14px;
+
+                margin-top: 0px;
+                margin-bottom: 30px;
+            }
+            .wrap {
+             
+                width: 300px;
+                margin: 30px auto 0px auto;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .wrap > a {
+                width: 300px;
+                height: 50px;
+
+                background-color: white;
+                border-radius: 8px;
+
+                margin-bottom: 10px;
+
+                font-size: 14px;
+                font-weight:  bold;
+                color: #44398A;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                text-decoration: none;
+
+                box-shadow:  3px 3px 5px 0px black;
+
+            }
+            .wrap > a:hover {
+                background-color: #f2f2f2;
+            }
+
+        </style>
+
+    </head>
+    <body>
+        <div class="wrap">
+            <div class="profile"></div>
+        <h1 class="main">줄</h1>
+        <p class="sub">오늘의 저녁 추천</p>
+        <a target="_blank" href="https://map.naver.com/v5/entry/place/567702501?c=14102613.3852515,4오버501508.9636835,13,0,0,0,dh&placePath=%2Fhome&entry=plt
+        ">연어로만</a>
+        <a target="_blank" href="https://map.naver.com/v5/entry/place/1578457708?c=14102613.3852515,4501508.9636835,13,0,0,0,dh&entry=plt
+        ">오버데어</a>
+        <a target="_blank" href="https://map.naver.com/v5/entry/place/38276191?c=14102613.3852515,4501508.9636835,13,0,0,0,dh&entry=plt
+        ">정정아 식당 </a>
+        <a target="_blank" href="https://map.naver.com/v5/search/%EC%9E%90%EB%8F%88%EC%8B%AC/place/1858319709?c=14104901.5462528,4500751.0615737,16,0,0,0,dh&entry=plt&placePath=%3Fentry%253Dbmp
+        ">자돈심 </a>
+            
+    </body>
+</html>
